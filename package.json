@@ -7,11 +7,11 @@
     "webpack": "node ./node_modules/webpack/bin/webpack.js",
     "debug": "npm run webpack -- --inspect --debug-brk",
     
-    "dev": "npm run webpack -- --mode development",
-    "prod": "npm run webpack -- --mode production",
+    "dev": "npm run webpack -- --env.mode development",
+    "prod": "npm run webpack -- --env.mode production",
     
-    "prod:debug": "npm run debug -- --mode production",
-    "dev:debug": "npm run debug -- --mode developement",
+    "prod:debug": "npm run debug -- --env.mode production",
+    "dev:debug": "npm run debug -- --env.mode developement",
 
     "debugthis": "node --inspect --inspect-brk  ./src/index.js"
   },

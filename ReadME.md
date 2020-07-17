@@ -19,3 +19,8 @@
 ## step 6
 
 `webpack config`
+
+## step 7
+
+> env.mode returns object and used in webpack env
+> env.mode or env both are good to use
