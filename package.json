@@ -4,9 +4,16 @@
   "description": "learning purpose of webpack",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack",
+    "webpack": "node ./node_modules/webpack/bin/webpack.js",
+    "debug": "npm run webpack -- --inspect --debug-brk",
+    
     "dev": "npm run webpack -- --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod": "npm run webpack -- --mode production",
+    
+    "prod:debug": "npm run debug -- --mode production",
+    "dev:debug": "npm run debug -- --mode developement",
+
+    "debugthis": "node --inspect --inspect-brk  ./src/index.js"
   },
   "author": "",
   "license": "ISC",
