@@ -23,4 +23,8 @@
 ## step 7
 
 > env.mode returns object and used in webpack env
-> env.mode or env both are good to use
+> env.mode or env both are good to us
+
+## step 8
+
+> plugin, npm install html-webpack-plugin --dev, create build-utils

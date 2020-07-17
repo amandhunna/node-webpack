@@ -6,18 +6,16 @@
   "scripts": {
     "webpack": "node ./node_modules/webpack/bin/webpack.js",
     "debug": "npm run webpack -- --inspect --debug-brk",
-    
     "dev": "npm run webpack -- --env.mode development",
     "prod": "npm run webpack -- --env.mode production",
-    
     "prod:debug": "npm run debug -- --env.mode production",
     "dev:debug": "npm run debug -- --env.mode developement",
-
     "debugthis": "node --inspect --inspect-brk  ./src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   }
