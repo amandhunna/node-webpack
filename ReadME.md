@@ -15,3 +15,7 @@
 > Tree shaking is a term commonly used in the JavaScript context for dead-code elimination
 
 - npm run webpack
+
+## step 6
+
+`webpack config`
