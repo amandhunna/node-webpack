@@ -1,3 +1,3 @@
-import nav from "./nav";
+import { nav } from "./nav";
 
 console.log(nav);
