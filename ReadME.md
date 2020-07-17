@@ -28,3 +28,9 @@
 ## step 8
 
 > plugin, npm install html-webpack-plugin --dev, create build-utils
+
+## step 9
+
+> Webpack server
+npm install webpack-dev-server -D
+
