@@ -1,3 +1,4 @@
+import "./nav.css"
 const nav = () => {
     const button = document.createElement("button");
     button.innerText = "Sample button";

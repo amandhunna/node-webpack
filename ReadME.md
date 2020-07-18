@@ -39,3 +39,11 @@ npm install webpack-dev-server -D
 npm install webpack-merge -D
 add work env
 add dynamic files
+
+## step 11
+add hashed file names
+
+## step 12
+added css loader 
+style-loader" to consume css on page, 
+ "css-loader to load css 

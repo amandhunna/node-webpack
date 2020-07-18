@@ -4,7 +4,7 @@
   "description": "learning purpose of webpack",
   "main": "index.js",
   "scripts": {
-    "webpack-dev-server": "webpack-dev-server",
+    "webpack-dev-server": "webpack-dev-server --env.mode development",
     "webpack": "node ./node_modules/webpack/bin/webpack.js",
     "debug": "npm run webpack -- --inspect --debug-brk",
     "dev": "npm run webpack -- --env.mode development",
@@ -16,7 +16,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^3.6.0",
     "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   },
