@@ -1,3 +1,4 @@
+install dependencies https://github.com/TheLarkInn/webpack-workshop-2018/
 -- pipeline
 
 ## step 3,
@@ -31,6 +32,10 @@
 
 ## step 9
 
-> Webpack server
+> Webpack server, based on express
 npm install webpack-dev-server -D
 
+## step 10
+npm install webpack-merge -D
+add work env
+add dynamic files
