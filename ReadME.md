@@ -61,3 +61,8 @@ style-loader" to consume css on page,
 
   ## step 15 
   add preset
+
+  ## step 16
+
+  npm i webpack-bundle-analyser
+  
