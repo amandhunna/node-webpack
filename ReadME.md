@@ -54,3 +54,7 @@ style-loader" to consume css on page,
  npm install --save-dev mini-css-extract-plugin
 
  auto css file in dist
+ 
+ ## step 14
+
+  npm i url-loader file-loader -D
