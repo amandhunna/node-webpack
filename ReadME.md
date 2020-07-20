@@ -65,4 +65,6 @@ style-loader" to consume css on page,
   ## step 16
 
   npm i webpack-bundle-analyser
-  
+
+  ## step 17
+  compress
