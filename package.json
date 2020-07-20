@@ -7,7 +7,7 @@
     "webpack-dev-server": "webpack-dev-server --env.mode development",
     "webpack": "node ./node_modules/webpack/bin/webpack.js",
     "debug": "npm run webpack -- --inspect --debug-brk",
-    "dev": "npm run webpack -- --env.mode development",
+    "dev": "npm run webpack -- --env.mode development --hot",
     "prod": "npm run webpack -- --env.mode production",
     "prod:debug": "npm run debug -- --env.mode production",
     "dev:debug": "npm run debug -- --env.mode developement",
@@ -23,6 +23,7 @@
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
+    "mini-css-extract-plugin": "^0.9.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.0.9"
   }

@@ -47,3 +47,10 @@ add hashed file names
 added css loader 
 style-loader" to consume css on page, 
  "css-loader to load css 
+
+## step 13 
+ loader help to "hot modules replacement"
+ https://webpack.js.org/plugins/mini-css-extract-plugin/
+ npm install --save-dev mini-css-extract-plugin
+
+ auto css file in dist
