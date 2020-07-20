@@ -58,3 +58,6 @@ style-loader" to consume css on page,
  ## step 14
 
   npm i url-loader file-loader -D
+
+  ## step 15 
+  add preset

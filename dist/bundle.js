@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "230e9c9094fbd1dbaa0f";
+/******/ 	var hotCurrentHash = "c717b9b8f72c325f7547";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -918,6 +918,18 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst footer = \"footer\";\n\
 
 /***/ }),
 
+/***/ "./src/image.js":
+/*!**********************!*\
+  !*** ./src/image.js ***!
+  \**********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n//convert base64 to image\n\nconst makeImage = url => {\n    const image = document.createElement('img');\n    image.src = url;\n    image.height = 200;\n    image.width = 200;\n    return image;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (makeImage);\n\n\n//# sourceURL=webpack:///./src/image.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -926,7 +938,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst footer = \"footer\";\n\
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nav */ \"./src/nav.js\");\n/* harmony import */ var _body__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./body */ \"./src/body.js\");\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n\n\n\n\nconst navi = Object(_nav__WEBPACK_IMPORTED_MODULE_0__[\"nav\"])();\ndocument.body.appendChild(navi);\n\nconsole.log(_nav__WEBPACK_IMPORTED_MODULE_0__[\"nav\"], _body__WEBPACK_IMPORTED_MODULE_1__[\"default\"], _footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nav */ \"./src/nav.js\");\n/* harmony import */ var _body__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./body */ \"./src/body.js\");\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n/* harmony import */ var _webpackLogo_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./webpackLogo.jpg */ \"./src/webpackLogo.jpg\");\n/* harmony import */ var _image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./image */ \"./src/image.js\");\n\n\n\n\n\n\nconsole.log(_webpackLogo_jpg__WEBPACK_IMPORTED_MODULE_3__[\"default\"]) // base64 image\nconst image = Object(_image__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(_webpackLogo_jpg__WEBPACK_IMPORTED_MODULE_3__[\"default\"])\ndocument.body.appendChild(image);\n\nconst navi = Object(_nav__WEBPACK_IMPORTED_MODULE_0__[\"nav\"])();\ndocument.body.appendChild(navi);\n\nconsole.log(_nav__WEBPACK_IMPORTED_MODULE_0__[\"nav\"], _body__WEBPACK_IMPORTED_MODULE_1__[\"default\"], _footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -950,6 +962,18 @@ eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtim
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"nav\", function() { return nav; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"unused\", function() { return unused; });\n/* harmony import */ var _nav_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nav.css */ \"./src/nav.css\");\n/* harmony import */ var _nav_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nav_css__WEBPACK_IMPORTED_MODULE_0__);\n\nconst nav = () => {\n    const button = document.createElement(\"button\");\n    button.innerText = \"Sample button\";\n    return button;\n};\nconst unused = () => \"this is unused method\";\n\n\n\n\n//# sourceURL=webpack:///./src/nav.js?");
+
+/***/ }),
+
+/***/ "./src/webpackLogo.jpg":
+/*!*****************************!*\
+  !*** ./src/webpackLogo.jpg ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"aaa903f3f0bb5cae341cf893e87a2f0e.jpg\");\n\n//# sourceURL=webpack:///./src/webpackLogo.jpg?");
 
 /***/ })
 
