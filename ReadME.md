@@ -68,3 +68,6 @@ style-loader" to consume css on page,
 
   ## step 17
   compress
+
+  ## step 18 
+  devtools

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/nav.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA","file":"main.css","sourcesContent":["button {\n  background: red;\n  color: white;\n}\n"],"sourceRoot":""}
